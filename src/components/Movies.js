@@ -96,7 +96,6 @@ class MoviesIndex extends React.Component {
       return
     }
     this.fetchAllMovies(currentPage + 1)
-
   }
 
   handlePreviousClick() {
