@@ -124,7 +124,7 @@ In our state we added:
 - filteredMovies (as an empty array)
 - query (as an empty string)
 
-![Insomnia](/Images/Insomnia.png)
+![Insomnia](https://github.com/MariusZerni/project-2/blob/master/src/images/Insomnia.png)
 
 ``` js
     this.state = {
@@ -227,11 +227,11 @@ if anything was typed in the searchForm, the filterMovies function was called. W
 
 An animation was added to the card, when on hover, the card flipped, to display the title. 
 
-![Animation](/Images/Animation.png)
+![Animation](https://github.com/MariusZerni/project-2/blob/master/src/images/Animation.png)
 
 ## Pagination
 
-![Pagination](/Images/Pages.png)
+![Pagination](https://github.com/MariusZerni/project-2/blob/master/src/images/Pages.png)
 
 As we're fetching around 5000 movies from the TMDb API, we had to implement pagination in order to be able to display all the movies. The API is offering an endpoint to retrieve 20 movies per page and it allows to specify a page number. In order for our pagination to work we created some logic so that whenever the user is pressing next or previous buttons, the API call will fetch the right page.
 This snippet is fetching a single page. In the URL we are setting a page variable which is the page selected by the user in the UI.
@@ -390,22 +390,22 @@ As we only had a limited amount of time, for now we are only fetching the first 
 
 We added a GIF of a Movie reel to act like a spinner on both the Movies Page and Top Rated Movies Page. This spinner was put in a setTimeout so it would display for 3 seconds when the page loads.
 
-![Spinner](/Images/Spinner.png)
+![Spinner](https://github.com/MariusZerni/project-2/blob/master/src/images/Spinner.png)
 
 
 ## Screenshots
 
 ### Homepage 
-![Welcome Page](/Images/Homepage.png)
+![Welcome Page](https://github.com/MariusZerni/project-2/blob/master/src/images/Homepage.png)
 
 ### Movies Page
-![Movies Page](/Images/Movies.png)
+![Movies Page](https://github.com/MariusZerni/project-2/blob/master/src/images/Movies.png)
 
 ### Single Movies Page
-![Single Page](/Images/Single.png)
+![Single Page](https://github.com/MariusZerni/project-2/blob/master/src/images/Single.png)
 
 ### Top Rated Movies
-![Top Rated Page](/Images/TopRated.png)
+![Top Rated Page](https://github.com/MariusZerni/project-2/blob/master/src/images/TopRated.png)
 
 ## Challenges
 - With this project I had two main challenges. Creating the logic for pagination was a bit tricky. In order to make that work I had to make a dynamic query to the API and also because it was my first project working with an external API, I had to do a lot of documentation which was time consuming. My second challenge was getting a fully functional app using an external API in only two days. 
