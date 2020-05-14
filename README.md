@@ -4,7 +4,7 @@
 # Movify
 ### by [Lucy Maitland](https://github.com/lucymait) and [Marius Zerni](https://github.com/MariusZerni)
 
-![Welcome Page](/Images/Homepage.png)
+![Welcome Page](..src/images/Homepage.png)
 
 ## Overview
 
@@ -406,6 +406,12 @@ We added a GIF of a Movie reel to act like a spinner on both the Movies Page and
 
 ### Top Rated Movies
 ![Top Rated Page](/Images/TopRated.png)
+
+## Challenges
+- With this project I had two main challenges. Creating the logic for pagination was a bit tricky. In order to make that work I had to make a dynamic query to the API and also because it was my first project working with an external API, I had to do a lot of documentation which was time consuming. My second challenge was getting a fully functional app using an external API in only two days. 
+
+## Wins 
+- After creating this project I felt more confident in understanding and using external APIs. With this project I learned how to create a fully functional app using React with all the dependencies which helped me create a strong foundation on what is happening under the hood. Another win was to be able to have a product to present after only 2 days.
 
 ## Potential future features
 
