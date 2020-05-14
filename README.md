@@ -4,7 +4,7 @@
 # Movify
 ### by [Lucy Maitland](https://github.com/lucymait) and [Marius Zerni](https://github.com/MariusZerni)
 
-![Welcome Page](..src/images/Homepage.png)
+![Welcome Page](https://github.com/MariusZerni/project-2/blob/master/src/images/Homepage.png)
 
 ## Overview
 
