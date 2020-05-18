@@ -127,7 +127,7 @@ class MoviesIndex extends React.Component {
                   return <MovieCard
                     key={i}
                     id={movies.id}
-                    title={movies.title}
+                    // title={movies.title}
                     imageUrl={movies.imageUrl}
                     description={movies.overview}
                     releaseDate={movies.release_date}
@@ -138,7 +138,7 @@ class MoviesIndex extends React.Component {
                     return <MovieCard
                       key={i}
                       id={movies.id}
-                      title={movies.title}
+                      // title={movies.title}
                       imageUrl={movies.imageUrl}
                       description={movies.overview}
                       releaseDate={movies.release_date}
