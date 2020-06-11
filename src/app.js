@@ -16,7 +16,7 @@ import SingleMovie from './components/SingleMovie'
 
 
 const App = () => (
-  <BrowserRouter basename="/project-2">
+  <BrowserRouter basename="/Movify">
     <NavBar/>
     <Switch>
       <Route exact path="/" component={Home}/>
